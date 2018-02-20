@@ -1,8 +1,47 @@
-<html>
-  <head></head>
-  <body>
-    <p>
-      De derde demo van opdracht 1, zodat je die kan testen.
-    </p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frontend voor designers</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Foto's</h1>
+        <hr>
+    </header>
+    <main>
+
+        <section>
+           <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')">Alles</button>
+  <button class="btn" onclick="filterSelection('blue')"> Blauw</button>
+  <button class="btn" onclick="filterSelection('lightBlue')"> Lichtblauw</button>
+  <button class="btn" onclick="filterSelection('green')"> Groen</button>
+  <button class="btn" onclick="filterSelection('yellow')"> Geel</button>
+  <button class="btn" onclick="filterSelection('orange')"> Oranje</button>
+  <button class="btn" onclick="filterSelection('red')"> Rood</button>
+</div>
+        </section>
+        <h2>Je resultaten:</h2>
+            <div class="container">
+                 <ul>
+                      <li class="filterDiv orange"></li>
+                      <li class="filterDiv yellow"></li>
+                      <li class="filterDiv blue"></li>
+                      <li class="filterDiv green"></li>
+                      <li class="filterDiv blue"></li>
+                      <li class="filterDiv lightBlue"></li>
+                      <li class="filterDiv red"></li>
+                      <li class="filterDiv lightBlue"></li>
+                      <li class="filterDiv green"></li>
+                      <li class="filterDiv yellow"></li>
+                      <li class="filterDiv green"></li>
+                      <li class="filterDiv red"></li>
+                </ul>
+            </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
 </html>
