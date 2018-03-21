@@ -126,7 +126,7 @@ section article {
 
 .second article {
     display: block;
-    margin: 1em 1em 1em 2em;
+    margin: 2em;
 }
 
 .second article p {
@@ -146,7 +146,7 @@ section article {
 .me {
     height: 21em;
     display: block;
-    margin: 0;
+    margin-left: 0;
 
 }
 
