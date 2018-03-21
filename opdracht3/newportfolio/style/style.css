@@ -144,9 +144,9 @@ section article {
 }
 
 .me {
-    height: 22em;
+    height: 21em;
     display: block;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
