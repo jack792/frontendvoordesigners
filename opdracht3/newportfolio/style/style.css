@@ -66,7 +66,7 @@ nav h2 {
     font-size: 0.8em;
     color: white;
     margin: 0.5em;
-    font-family: Nexa;
+    font-family: Futura;
 }
 
 nav h2:hover {
@@ -140,7 +140,7 @@ section article {
 .second h2 {
     margin: 1em;
     color: white;
-    font-family: Nexa;
+    font-family: Futura;
 }
 
 .me {
@@ -223,7 +223,7 @@ section article {
 
 main section h1 {
     font-size: 2em;
-    font-family: Nexa;
+    font-family: Futura;
     color: white;
     margin: auto;
     padding: 1em 0 0 1em;
@@ -236,7 +236,7 @@ article footer {
 
 article + h2 {
     color: white;
-    font-family: Nexa;
+    font-family: Futura;
     margin: auto 2em;
 }
 
@@ -398,7 +398,7 @@ section div h2 {
 
 .contentwerk h1 {
     color: white;
-    font-family: Nexa;
+    font-family: Futura;
 }
 
 .contentwerk div {
@@ -410,7 +410,7 @@ section div h2 {
 .contentwerk p {
     margin: auto 2em;;
     color: white;
-    font-family: Nexa;
+    font-family: Futura;
 }
 
 .contact {
@@ -463,6 +463,11 @@ video {
 
     100% {
         margin-left: 50em;
+    }
+    
+
+    @keyframes fotomove {
+        
     }
 }
 
@@ -539,7 +544,7 @@ video {
 
     body {
         margin: 0;
-        font-family: Avenir;
+        font-family: Futura;
     }
 
     header {
