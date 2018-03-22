@@ -9,11 +9,12 @@ header {
     display: flex;
     position: fixed;
     z-index: 10;
-    background-color: red;
+    background-color: black;
     width: 100%;
     height: 3em;
     transform: skew(0deg, 7deg) translateY(-3em);
     padding: 2.5em 0;
+    box-shadow: 0px 5px 80px 0px rgba(240,240,240,0.68);
 }
 
 
@@ -650,7 +651,7 @@ video {
 
     section article {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         margin: 0;
     }
@@ -664,17 +665,19 @@ video {
 
     .second article {
         display: flex;
+        width: 100%;
         align-items: center;
+        flex-direction: row;
         justify-content: space-between;
-        margin: auto;
+        margin: 0;
     }
 
-    .second article p {
-        width: 40%;
+    article > p {
+        display: flex;
         font-weight: 300;
         line-height: 1.5em;
-        margin: 3em 0 3em 12em;
-        border: 0.5px solid white;
+        margin: 3em 12em 3em 12em;
+        /border: 0.5px solid white;
         padding: 1em;
         color: white;
     }
@@ -686,7 +689,8 @@ video {
 
     .me {
         height: 24em;
-        margin: 0 12em 0 0;
+        margin: 0;
+        display: flex;
 
     }
 
