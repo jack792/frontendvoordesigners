@@ -89,6 +89,8 @@ nav h2:hover {
 
 a {
     text-decoration: underline;
+    color: white;
+    font-weight: 700;
 }
 
 footer {
@@ -449,6 +451,22 @@ video {
     margin: 1em 2em;
 }
 
+.contact img:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.contact img {
+    height: 3em;
+    margin: 0.5em;
+}
+
+.contact div {
+    display: flex;
+    margin: 1em 2em;
+    
+}
+
+
 
 
 @keyframes slider {
@@ -527,7 +545,7 @@ video {
     }
     
     
-}
+
 
 
 
@@ -655,7 +673,7 @@ video {
 
     section article {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin: 0;
     }
@@ -670,17 +688,16 @@ video {
     .second article {
         display: flex;
         width: 100%;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
         justify-content: space-between;
         margin: 0;
     }
 
-    article > p {
-        display: flex;
+    article p {
         font-weight: 300;
         line-height: 1.5em;
-        margin: 3em 12em 3em 12em;
+        margin: 3em 0 3em 12em;
         /border: 0.5px solid white;
         padding: 1em;
         color: white;
@@ -692,8 +709,8 @@ video {
     }
 
     .me {
-        height: 24em;
-        margin: 0;
+        height: 22em;
+        margin: 6em 12em 0 3em;
         display: flex;
 
     }
