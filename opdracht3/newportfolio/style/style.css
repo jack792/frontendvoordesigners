@@ -880,7 +880,7 @@ video {
         height: 100%;
         overflow: hidden;
         position: relative;
-        background-color: aqua;
+        background-color: black;
         top: 1;
         z-index: 10;
     }
