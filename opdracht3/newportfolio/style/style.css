@@ -48,7 +48,7 @@ nav img {
 nav ul li {
     list-style: none;
     display: flex;
-    margin: 0 0.5em;
+    margin: 0;
 }
 
 nav li:hover {
@@ -59,7 +59,7 @@ nav li:hover {
 nav ul {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 0.5em 0 -1em;
 
 }
 
@@ -421,7 +421,7 @@ section div h2 {
 }
 
 .contact {
-    height: 30em;
+    height: 50em;
     position: relative;
     overflow: hidden;
     z-index: 10;
@@ -456,13 +456,14 @@ video {
 }
 
 .contact img {
-    height: 3em;
+    height: 2.5em;
     margin: 0.5em;
 }
 
 .contact div {
     display: flex;
     margin: 1em 2em;
+    justify-content: center;
     
 }
 
