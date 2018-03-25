@@ -421,10 +421,10 @@ section div h2 {
 }
 
 .contact {
-    height: 50em;
+    height: 23em;
     position: relative;
     overflow: hidden;
-    z-index: 10;
+    z-index: 9;
     top: 40em;
 
 }
