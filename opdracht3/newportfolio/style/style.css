@@ -14,7 +14,7 @@ header {
     height: 3em;
     transform: skew(0deg, 7deg) translateY(-3em);
     padding: 2.5em 0;
-    box-shadow: 0px 5px 80px 0px rgba(240,240,240,0.68);
+    box-shadow: 0px 5px 80px 0px rgba(240, 240, 240, 0.68);
 }
 
 
@@ -22,7 +22,7 @@ header {
 header + div {
     background-color: red;
     height: 1em;
-    width: 53em;
+    width: 26em;
     position: fixed;
     z-index: 10;
 }
@@ -33,7 +33,7 @@ nav {
     flex-flow: row nowrap;
     align-items: center;
     transform: skew(0deg, -7deg) translateY(0.5em);
-    
+
 }
 
 nav img {
@@ -387,7 +387,7 @@ section div h2 {
     height: 40em;
     padding: auto;
     margin: 0 auto 1em auto;
-    
+
 }
 
 .opdracht2 img:nth-of-type(2) {
@@ -399,7 +399,7 @@ section div h2 {
 .opdracht4 img:nth-of-type(2) {
     height: 18em;
     margin: 0 auto 1em auto;
-    
+
 }
 
 
@@ -415,7 +415,8 @@ section div h2 {
 }
 
 .contentwerk p {
-    margin: auto 2em;;
+    margin: auto 2em;
+    ;
     color: white;
     font-family: Futura;
 }
@@ -463,8 +464,8 @@ video {
 .contact div {
     display: flex;
     margin: 1em 2em;
-    justify-content: center;
-    
+    justify-content: flex-start;
+
 }
 
 
@@ -488,11 +489,9 @@ video {
     100% {
         margin-left: 50em;
     }
-    
 
-    @keyframes fotomove {
-        
-    }
+
+    @keyframes fotomove {}
 }
 
 
@@ -502,50 +501,48 @@ video {
 
 
     .contentwerk div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-    
-    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
     .contentwerk img:nth-of-type(2) {
-    height: 40em;
-    width: 20em;
-    padding: auto;
-    margin: 5em 0 0 0;
-    
-}
-    
+        height: 40em;
+        width: 20em;
+        padding: auto;
+        margin: 5em 0 0 0;
+
+    }
+
     .contentwerk p {
         margin: 6em 0 0 1em;
-        width: 40%; 
+        width: 40%;
     }
-    
-    
+
+
     video {
         margin: 5em 0 0 0;
         height: 40em;
     }
-    
+
     .opdracht4 img:nth-of-type(2) {
-    height: 30em;
-    width: 40em;
-    margin: 0 auto 0 auto;
-    
-}
-    
-     .contentwerk > .transavia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-    
+        height: 30em;
+        width: 40em;
+        margin: 0 auto 0 auto;
+
+    }
+
+    .contentwerk > .transavia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .opdracht4 p {
         width: 80%;
         margin: 1em 0 0 6em;
     }
-    
-    
 
 
 
@@ -562,471 +559,483 @@ video {
 
 
 
-/*DEKSTOP VERSIE*/
 
-@media (min-width:80em) {
 
-    body {
-        margin: 0;
-        font-family: Futura;
-    }
+    /*DEKSTOP VERSIE*/
+    @media (min-width:80em) {
 
-    header {
-        display: flex;
-        position: fixed;
-        z-index: 10;
-        background-color: black;
-        width: 100%;
-        height: 3em;
-        transform: skew(0deg, 0deg) translateY(0);
-        padding: 0;
-
-    }
-
-    header + div {
-        background-color: red;
-        height: 1em;
-        width: 60em;
-        position: fixed;
-        z-index: 10;
-    }
-
-    nav {
-        display: flex;
-        width: 100%;
-        flex-flow: row nowrap;
-        align-items: center;
-        transform: skew(0deg, 0deg) translateY(0);
-    }
-
-    nav img {
-        height: 1.5em;
-        padding: 0.5em;
-        display: flex;
-        border-radius: 0%;
-
-    }
-
-
-    nav ul li {
-        list-style: none;
-        display: flex;
-        margin: 0 0.5em;
-    }
-
-    nav li:hover {
-        background-color: #ddd;
-    }
-
-
-    nav ul {
-        display: flex;
-        align-items: center;
-        margin: 0.5em;
-
-    }
-
-    nav h2 {
-        font-size: 1.2em;
-        color: white;
-        margin: 0.5em;
-    }
-
-    nav h2:hover {
-        color: black;
-    }
-
-    .home {
-        background-image: url('../images/desk2.jpg');
-        background-size: cover;
-        height: 49em;
-        left: 0;
-        width: 100%;
-        position: fixed;
-        overflow: hidden;
-
-
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-
-
-    }
-
-    footer img {
-        display: flex;
-        height: 2.5em;
-        margin: 0.5em;
-    }
-
-    main {
-        margin: 0;
-
-    }
-
-    main section {
-        background-image: none;
-        background-color: black;
-    }
-
-
-    section article {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-    }
-
-    .second {
-        height: 100%;
-        position: relative;
-        top: 49em;
-
-    }
-
-    .second article {
-        display: flex;
-        width: 100%;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0;
-    }
-
-    article p {
-        font-weight: 300;
-        line-height: 1.5em;
-        margin: 3em 0 3em 12em;
-        /border: 0.5px solid white;
-        padding: 1em;
-        color: white;
-    }
-
-    .second h2 {
-        margin-left: 8em;
-        color: white;
-    }
-
-    .me {
-        height: 27em;
-        margin: 6em 12em 0 3em;
-        display: flex;
-
-    }
-
-    .skillcontainer {
-        display: flex;
-        align-items: center;
-        margin: 1.5em 12em;
-    }
-
-    .skillcontainer img {
-        height: 4em;
-    }
-
-    .skillcontainer .jedi {
-        height: 2em;
-        margin: 0.5em;
-    }
-
-    .werk {
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: 49em;
-        z-index: 1;
-    }
-
-    .container {
-        width: 100%;
-        height: 50em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .itemwerk {
-        width: 10em;
-        height: 45em;
-        filter: grayscale(100%);
-        background-size: cover;
-        background-position: center;
-    }
-
-    .itemwerk:nth-of-type(1) {
-        background-image: url(../images/Oba%20homepage.png);
-
-    }
-
-    .itemwerk:nth-of-type(2) {
-        background-image: url(../images/ISGA%20SOCIAL.png);
-    }
-
-    .itemwerk:nth-of-type(3) {
-        background-image: url(../images/splotify%20home.png);
-    }
-
-    .itemwerk:nth-of-type(4) {
-        background-image: url(../images/transavia%20home.png);
-
-    }
-
-    .itemwerk:hover {
-        width: 12em;
-        height: 47em;
-        margin: 0;
-        filter: grayscale(0%);
-    }
-
-    .werk header h2 {
-        font-size: 2em;
-        color: white;
-        margin: 1em auto 0.5em auto;
-    }
-
-    main section h1 {
-        font-size: 2em;
-        color: white;
-        margin: auto;
-        padding: 1em 0 0 6em;
-    }
-
-    article footer {
-        display: flex;
-        margin: auto;
-    }
-
-    article + h2 {
-        color: white;
-        margin: auto 2em;
-    }
-
-    section footer {
-        display: flex;
-        justify-content: flex-start;
-        margin: auto 2em;
-    }
-
-    section footer img {
-        height: 6em;
-        margin-top: 1em;
-        align-content: flex-start;
-    }
-
-    hr {
-        margin: auto 12em;
-        color: #E6E6E6;
-        box-shadow: 0 2px 0.56em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(255, 255, 255, 0.10);
-    }
-
-
-
-    footer + p {
-        color: white;
-        margin: 1em 3em;
-    }
-
-    .opdracht {
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        margin: 0;
-        position: relative;
-        z-index: 2;
-        animation: slider 1s;
-        animation-fill-mode: forwards;
-
-    }
-
-    .opdracht2 {
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        margin: 0;
-        z-index: 2;
-        position: relative;
-        animation: slider 1s;
-        animation-fill-mode: forwards;
-    }
-
-    .opdracht3 {
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        margin: 0;
-        z-index: 2;
-        position: relative;
-        animation: slider 1s;
-        animation-fill-mode: forwards;
-    }
-
-    .opdracht4 {
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        margin: 0;
-        z-index: 2;
-        position: relative;
-        animation: slider 1s;
-        animation-fill-mode: forwards;
-    }
-
-
-    .contentwerk {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        position: relative;
-        background-color: black;
-        top: 1;
-        z-index: 10;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-
-
-    section div h2 {
-        margin-left: 8em;
-    }
-
-    .back {
-        height: 3em;
-        z-index: 10;
-        margin: 0;
-        transform: rotate(180deg);
-    }
-
-    .back2 {
-        height: 3em;
-        z-index: 10;
-        margin: 0;
-        transform: rotate(180deg);
-
-    }
-
-
-    .back3 {
-        height: 3em;
-        z-index: 10;
-        margin: 0;
-        transform: rotate(180deg);
-
-    }
-
-    .back4 {
-        height: 3em;
-        z-index: 10;
-        margin: 0;
-        transform: rotate(180deg);
-
-    }
-
-    .contentwerk img:nth-of-type(2) {
-        height: 45em;
-        padding: 0;
-        margin: 2em 0;
-
-    }
-    
-    .opdracht2 img:nth-of-type(2) {
-        height: 45em;
-        margin: 2em 0;
-    }
-
-    .opdracht4 img:nth-of-type(2) {
-        width: 45em;
-        height: 38em;
-        padding: 0;
-        margin: 0 0 0 -4em;
-
-    }
-
-    
-    .contentwerk h1 {
-        color: white;
-        text-align: left;
-    }
-
-    .contentwerk div {
-        display: flex;
-        margin:  2em 11em;
-        justify-content: flex-start;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .contentwerk p {
-        margin: 3em 2em;
-        width: 50%;
-        color: white;
-    }
-
-    .contact {
-        height: 30em;
-        position: relative;
-        overflow: hidden;
-        z-index: 10;
-        top: 49em;
-
-    }
-
-    .contactOpen {
-        top: 0;
-    }
-
-    video {
-        width: 25em;
-        margin: 2em 0;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .hidden section:nth-of-type(7) {
-        top: 49em;
-
-    }
-    
-    .contentwerk > .transavia {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-    
-    
-    .opdracht4 p {
-        width: 100%;
-        margin: 0 0 0 2em;
-    }
-    
-    
-    
-
-
-
-    @keyframes slider {
-        0% {
-            margin-left: 50em;
+        body {
+            margin: 0;
+            font-family: Futura;
         }
 
-        100% {
-            margin-left: 0em;
+        header {
+            display: flex;
+            position: fixed;
+            z-index: 10;
+            background-color: black;
+            width: 100%;
+            height: 3em;
+            transform: skew(0deg, 0deg) translateY(0);
+            padding: 0;
+
         }
+
+        header + div {
+            background-color: red;
+            height: 1em;
+            width: 60em;
+            position: fixed;
+            z-index: 10;
+        }
+
+        nav {
+            display: flex;
+            width: 100%;
+            flex-flow: row nowrap;
+            align-items: center;
+            transform: skew(0deg, 0deg) translateY(0);
+        }
+
+        nav img {
+            height: 1.5em;
+            padding: 0.5em;
+            display: flex;
+            border-radius: 0%;
+
+        }
+
+
+        nav ul li {
+            list-style: none;
+            display: flex;
+            margin: 0 0.5em;
+        }
+
+        nav li:hover {
+            background-color: #ddd;
+        }
+
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            margin: 0.5em;
+
+        }
+
+        nav h2 {
+            font-size: 1.2em;
+            color: white;
+            margin: 0.5em;
+        }
+
+        nav h2:hover {
+            color: black;
+        }
+
+        .home {
+            background-image: url('../images/desk2.jpg');
+            background-size: cover;
+            height: 49em;
+            left: 0;
+            width: 100%;
+            position: fixed;
+            overflow: hidden;
+
+
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        footer img {
+            display: flex;
+            height: 2.5em;
+            margin: 0.5em;
+        }
+
+        main {
+            margin: 0;
+
+        }
+
+        main section {
+            background-image: none;
+            background-color: black;
+        }
+
+
+        section article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+        }
+
+        .second {
+            height: 100%;
+            position: relative;
+            top: 49em;
+
+        }
+
+        .second article {
+            display: flex;
+            width: 100%;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0;
+        }
+
+        article p {
+            font-weight: 300;
+            line-height: 1.5em;
+            margin: 3em 0 3em 12em;
+            /border: 0.5px solid white;
+            padding: 1em;
+            color: white;
+        }
+
+        .second h2 {
+            margin-left: 8em;
+            color: white;
+        }
+
+        .me {
+            height: 27em;
+            margin: 6em 12em 0 3em;
+            display: flex;
+
+        }
+
+        .skillcontainer {
+            display: flex;
+            align-items: center;
+            margin: 1.5em 12em;
+        }
+
+        .skillcontainer img {
+            height: 4em;
+        }
+
+        .skillcontainer .jedi {
+            height: 2em;
+            margin: 0.5em;
+        }
+
+        .werk {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            top: 49em;
+            z-index: 1;
+        }
+
+        .container {
+            width: 100%;
+            height: 50em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .itemwerk {
+            width: 10em;
+            height: 45em;
+            filter: grayscale(100%);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .itemwerk:nth-of-type(1) {
+            background-image: url(../images/Oba%20homepage.png);
+
+        }
+
+        .itemwerk:nth-of-type(2) {
+            background-image: url(../images/ISGA%20SOCIAL.png);
+        }
+
+        .itemwerk:nth-of-type(3) {
+            background-image: url(../images/splotify%20home.png);
+        }
+
+        .itemwerk:nth-of-type(4) {
+            background-image: url(../images/transavia%20home.png);
+
+        }
+
+        .itemwerk:hover {
+            width: 12em;
+            height: 47em;
+            margin: 0;
+            filter: grayscale(0%);
+        }
+
+        .werk header h2 {
+            font-size: 2em;
+            color: white;
+            margin: 1em auto 0.5em auto;
+        }
+
+        main section h1 {
+            font-size: 2em;
+            color: white;
+            margin: auto;
+            padding: 1em 0 0 6em;
+        }
+
+        article footer {
+            display: flex;
+            margin: auto;
+        }
+
+        article + h2 {
+            color: white;
+            margin: auto 2em;
+        }
+
+        section footer {
+            display: flex;
+            justify-content: flex-start;
+            margin: auto 2em;
+        }
+
+        section footer img {
+            height: 6em;
+            margin-top: 1em;
+            align-content: flex-start;
+        }
+
+        hr {
+            margin: auto 12em;
+            color: #E6E6E6;
+            box-shadow: 0 2px 0.56em 0 rgba(0, 0, 0, 0.1), 0 0.37em 1.25em 0 rgba(255, 255, 255, 0.10);
+        }
+
+
+
+        footer + p {
+            color: white;
+            margin: 1em 3em;
+        }
+
+        .opdracht {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            animation: slider 1s;
+            animation-fill-mode: forwards;
+
+        }
+
+        .opdracht2 {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            margin: 0;
+            z-index: 2;
+            position: relative;
+            animation: slider 1s;
+            animation-fill-mode: forwards;
+        }
+
+        .opdracht3 {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            margin: 0;
+            z-index: 2;
+            position: relative;
+            animation: slider 1s;
+            animation-fill-mode: forwards;
+        }
+
+        .opdracht4 {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            margin: 0;
+            z-index: 2;
+            position: relative;
+            animation: slider 1s;
+            animation-fill-mode: forwards;
+        }
+
+
+        .contentwerk {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-color: black;
+            top: 1;
+            z-index: 10;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+
+
+        section div h2 {
+            margin-left: 8em;
+        }
+
+        .back {
+            height: 3em;
+            z-index: 10;
+            margin: 0;
+            transform: rotate(180deg);
+        }
+
+        .back2 {
+            height: 3em;
+            z-index: 10;
+            margin: 0;
+            transform: rotate(180deg);
+
+        }
+
+
+        .back3 {
+            height: 3em;
+            z-index: 10;
+            margin: 0;
+            transform: rotate(180deg);
+
+        }
+
+        .back4 {
+            height: 3em;
+            z-index: 10;
+            margin: 0;
+            transform: rotate(180deg);
+
+        }
+
+        .contentwerk img:nth-of-type(2) {
+            height: 45em;
+            padding: 0;
+            margin: 2em 0;
+
+        }
+
+        .opdracht2 img:nth-of-type(2) {
+            height: 45em;
+            margin: 2em 0;
+        }
+
+        .opdracht4 img:nth-of-type(2) {
+            width: 45em;
+            height: 38em;
+            padding: 0;
+            margin: 0 0 0 -4em;
+
+        }
+
+
+        .contentwerk h1 {
+            color: white;
+            text-align: left;
+        }
+
+        .contentwerk div {
+            display: flex;
+            margin: 2em 11em;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .contentwerk p {
+            margin: 3em 2em;
+            width: 50%;
+            color: white;
+        }
+
+        .contact {
+            height: 30em;
+            position: relative;
+            overflow: hidden;
+            z-index: 10;
+            top: 49em;
+
+        }
+
+        .contactOpen {
+            top: 0;
+        }
+
+        video {
+            width: 25em;
+            margin: 2em 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hidden section:nth-of-type(7) {
+            top: 49em;
+
+        }
+
+        .contentwerk > .transavia {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+        .opdracht4 p {
+            width: 100%;
+            margin: 0 0 0 2em;
+        }
+
+
+        .contact p {
+            color: white;
+            margin: 1em 12em;
+        }
+        
+        .contact div {
+            margin: 1em 12em;
+        }
+
+
+
+
+
+
+
+        @keyframes slider {
+            0% {
+                margin-left: 50em;
+            }
+
+            100% {
+                margin-left: 0em;
+            }
+        }
+
+        @keyframes slider2 {
+            0% {
+                margin-left: 0em;
+            }
+
+            100% {
+                margin-left: 50em;
+            }
+        }
+
     }
-
-    @keyframes slider2 {
-        0% {
-            margin-left: 0em;
-        }
-
-        100% {
-            margin-left: 50em;
-        }
-    }
-
-}
