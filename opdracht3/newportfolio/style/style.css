@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -67,7 +67,7 @@ nav h2 {
     font-size: 0.8em;
     color: white;
     margin: 0.5em;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav h2:hover {
@@ -139,7 +139,7 @@ section article {
 .second article p {
     width: 100%;
     font-weight: 300;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5em;
     color: white;
 }
@@ -147,7 +147,7 @@ section article {
 .second h2 {
     margin: 1em;
     color: white;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .me {
@@ -230,7 +230,7 @@ section article {
 
 main section h1 {
     font-size: 2em;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     margin: auto;
     padding: 1em 0 0 1em;
@@ -243,7 +243,7 @@ article footer {
 
 article + h2 {
     color: white;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
     margin: auto 2em;
 }
 
@@ -405,7 +405,7 @@ section div h2 {
 
 .contentwerk h1 {
     color: white;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contentwerk div {
@@ -418,7 +418,7 @@ section div h2 {
     margin: auto 2em;
     ;
     color: white;
-    font-family: Futura;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contact {
@@ -582,7 +582,7 @@ header {
 
         body {
             margin: 0;
-            font-family: Futura;
+            font-family: 'Open Sans', sans-serif;
         }
 
         header {
