@@ -3,8 +3,12 @@ const app = document.getElementById('root');
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
 
+const subcontainer = document.createElement('div');
+subcontainer.setAttribute('class', subcontainer);
+
 
 app.appendChild(container);
+app.appendChild(subcontainer);
 
 
 var request = new XMLHttpRequest();
@@ -33,8 +37,8 @@ request.onload = function () {
         const button = document.createElement('button');
         button.setAttribute('class', 'button');
         
-        const subcart = document.createElement('div');
-        subcart.setAttribute('class', 'subcard');
+        const subcard = document.createElement('div');
+        subcard.setAttribute('class', 'subcard');
         
         const p = document.createElement('p');
         p.textContent = movie.plot;
@@ -45,7 +49,8 @@ request.onload = function () {
         card.appendChild(h1);
         card.appendChild(img);
         card.appendChild(button);
-        subcart.appendChild(p);
+        subcontainer.appendChild(subcard);
+        subcard.appendChild(p);
       
 
 

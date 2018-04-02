@@ -26,7 +26,25 @@ body {
 
 }
 
+.subcontainer {
+     flex-wrap: nowrap;
+    flex-direction: colum;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
 .card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 22em;
+    margin-right: 0.5em;
+}
+
+.subcard {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -64,7 +82,7 @@ p {
     overflow: hidden;
     z-index: 6;
     top: 0;
-    color: saddlebrown;
+    color: white;
 }
 
 img {
