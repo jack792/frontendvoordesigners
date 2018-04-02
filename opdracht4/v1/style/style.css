@@ -78,5 +78,7 @@ button {
     width: 4em;
     margin: 0 0.5em 3em auto;
     z-index: 3;
+    background-color: white;
 }
+
 
