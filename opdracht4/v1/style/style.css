@@ -18,7 +18,7 @@ body {
 
 .container {
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: colum;
     display: flex;
     overflow-x: scroll;
     overflow-y: scroll;
@@ -32,7 +32,7 @@ body {
     position: relative;
     margin: 0;
     height: 100%;
-    width: 20em;
+    width: 22em;
     margin-right: 0.5em;
 }
 
@@ -40,15 +40,15 @@ h1 {
     list-style: none;
     position: absolute;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     text-align: left;
     color: white;
     z-index: 2;
-    margin: 0;
+    margin: 0 0 1em;
     bottom: 0;
     padding: 0.1em 0;
     width: 100%;
-    background-color: rgb(173,173,173,45%);
+    background-color: rgb(173,173,173,85%);
     
 }
 
@@ -62,6 +62,8 @@ p {
     padding: 0.5em;
     align-self: center;
     overflow: hidden;
+    z-index: 6;
+    top: 0;
     color: saddlebrown;
 }
 
@@ -71,7 +73,10 @@ img {
     width: 20em;
 }
 
-
-h2 {
-    overflow-y: hidden;
+button {
+    height: 3em;
+    width: 4em;
+    margin: 0 0.5em 3em auto;
+    z-index: 3;
 }
+
