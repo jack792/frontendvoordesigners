@@ -172,6 +172,20 @@ section article {
     margin: 0.5em;
 }
 
+.jedi:nth-of-type(6) {
+    opacity: 0.4;
+}
+
+.skillcontainer:nth-of-type(1) .jedi:nth-of-type(5) {
+    opacity: 0.4;
+}
+
+.skillcontainer:nth-of-type(3) .jedi:nth-of-type(5) {
+    opacity: 0.4;
+}
+
+
+
 .werk {
     height: 100%;
     width: 100%;
