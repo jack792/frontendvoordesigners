@@ -1,6 +1,7 @@
 body {
     font-family: Futura;
     margin: 0;
+    background-color: black;
 }
 
 
@@ -32,8 +33,7 @@ body {
     margin: 0;
     height: 100%;
     width: 20em;
-    background-color: beige;
-
+    margin-right: 0.5em;
 }
 
 h1 {
@@ -48,13 +48,14 @@ h1 {
     bottom: 0;
     padding: 0.1em 0;
     width: 100%;
-    background-color: gray;
-
+    background-color: rgb(173,173,173,45%);
+    
 }
 
 h2 {
     margin: 0;
     padding: 0.2em;
+    color: white;
 }
 
 p {
