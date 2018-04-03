@@ -32,27 +32,24 @@ request.onload = function () {
         h1.textContent = movie.title;
                 
         const img = document.createElement('img');
-        img.src = 'http://ia.media-imdb.com/images/M/MV5BNTQ3OTkwNTgyN15BMl5BanBnXkFtZTcwNTAzOTAzOQ@@._V1_SX214_.jpg';
+        img.src = movie.cover;
     
         const button = document.createElement('button');
         button.setAttribute('class', 'button');
         
-        const subcard = document.createElement('div');
-        subcard.setAttribute('class', 'subcard');
-        
+            
         const p = document.createElement('p');
         p.textContent = movie.plot;
         
-       
-        
+    
+
+    
         container.appendChild(card);
         card.appendChild(h1);
+        card.appendChild(p);
         card.appendChild(img);
         card.appendChild(button);
-        subcontainer.appendChild(subcard);
-        subcard.appendChild(p);
-      
-
+    
 
 
         console.log(movie.title);
@@ -63,5 +60,16 @@ request.onload = function () {
 }
 
 request.send();
+
+
+var button = document.querySelector('button');
+var description = document.querySelector('p');
+
+function down() {
+    description.classList.toggle('down');
+    
+}
+
+button.addEventListener('click', down);
 
 
