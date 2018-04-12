@@ -13,7 +13,7 @@ var description = document.querySelector('p');
 var image = document.querySelector('img');
 var genre = document.querySelector('h3');
 var date = document.querySelector('p');
-
+var actor = document.querySelector('p');
 
 request.open('GET', 'http://dennistel.nl/movies', true);
 request.onload = function () {
@@ -52,17 +52,44 @@ request.onload = function () {
         date.textContent = 'Release date: ' + movie.release_date;
         date.querySelector('date');
         
-    
+        var actor = document.createElement('p');
+        //console.log("ACTORS ",movie.actors)
+        
+        var myactors = "";
+        var i;
+        for (i = 0; i < movie.actors.length; i++) {
+            myactors += movie.actors[i].actor_name + ", ";
+            console.log("ACTORS " + movie.actors[i].actor_name)
+        }
+        actor.textContent = myactors;
+        actor.setAttribute('class', 'actor');
+        
         function down() {
 //            h1.classList.toggle('titeldown');
             p.classList.toggle('down');
             img.classList.toggle('blurimage');
+            img.classList.toggle('imgshadow');
             button.textContent = 'LESS INFO';
             date.classList.toggle('datedown');
             genres.classList.toggle('genredown');
             subcard.classList.toggle('subcarddown');
 
         }
+        
+//        function myFunction () {
+//            var x = document.querySelector('button');
+//            console.log(myFunction.innerHTML);
+//            if (x.innerHTML === 'More Info')
+//        {
+//        
+//        x.innerHTML = 'Less Info';
+//        
+//        } else {
+//            x.innerHTML = 'More Info';
+//        }
+//        }
+//        
+        
         
         button.addEventListener('click', down);
     
@@ -75,7 +102,7 @@ request.onload = function () {
         subcard.appendChild(p);
         subcard.appendChild(genres);
         subcard.appendChild(date);
-
+        subcard.appendChild(actor);
         card.appendChild(button); 
 
         
@@ -88,6 +115,7 @@ request.onload = function () {
         console.log(movie.simple_plot);
         console.log(movie.genres);
         console.log(movie.release_date);
+        console.log(movie.actors);
     
 
 
@@ -95,3 +123,30 @@ request.onload = function () {
 }
 
 request.send();
+
+
+
+//     var harmonica = document.querySelector('button');
+//
+//for (var i = 0; i < harmonica.length; i++) {
+//    harmonica[i].onclick = function () {
+//        
+//        var content = this.nextElementSibling;
+//        if (content.style.maxHeight) {
+//            //harmonica is nu open, dicht maar!
+//            contentontent.style.maxHeight = null;
+//
+//        } else {
+//            //harmonica is dicht, openen!
+//            content.style.maxHeight = content.scrollHeight + "px";
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
