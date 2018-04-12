@@ -1,21 +1,19 @@
 const app = document.getElementById('root');
-
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
 
-const subcontainer = document.createElement('div');
-subcontainer.setAttribute('class', subcontainer);
-
-
 app.appendChild(container);
-app.appendChild(subcontainer);
+
+
 
 
 var request = new XMLHttpRequest();
 
-var title = document.querySelector('h1');
 var description = document.querySelector('p');
 var image = document.querySelector('img');
+var genre = document.querySelector('h3');
+var date = document.querySelector('p');
+var actor = document.querySelector('p');
 
 request.open('GET', 'http://dennistel.nl/movies', true);
 request.onload = function () {
@@ -25,35 +23,100 @@ request.onload = function () {
 
     data.forEach(movie => {
 
-        const card = document.createElement('div');
+        var card = document.createElement('div');
         card.setAttribute('class', 'card');
         
-        const h1 = document.createElement('h1');
-        h1.textContent = movie.title;
-                
-        const img = document.createElement('img');
-        img.src = movie.cover;
+        var subcard = document.createElement('div');
+        subcard.setAttribute('class', 'subcard');
     
-        const button = document.createElement('button');
+        var img = document.createElement('img');
+        img.src = movie.cover;
+
+        var button = document.createElement('button');
         button.setAttribute('class', 'button');
+        button.querySelector('button');
+        button.textContent = 'MORE INFO';
+    
+    
+        var p = document.createElement('p');
+        p.textContent = '' + movie.simple_plot;
+        p.setAttribute('class', 'description');
         
-            
-        const p = document.createElement('p');
-        p.textContent = movie.plot;
         
+        var genres = document.createElement('h3');
+        genres.textContent = 'Genre: ' + movie.genres;
+        genres.querySelector('h3');
+        genres.getElementsByClassName('genres');
+        
+        var date = document.createElement('p');
+        date.textContent = 'Release date: ' + movie.release_date;
+        date.querySelector('date');
+        
+        var actor = document.createElement('p');
+        //console.log("ACTORS ",movie.actors)
+        
+        var myactors = "";
+        var i;
+        for (i = 0; i < movie.actors.length; i++) {
+            myactors += movie.actors[i].actor_name + ", ";
+            console.log("ACTORS " + movie.actors[i].actor_name)
+        }
+        actor.textContent = myactors;
+        actor.setAttribute('class', 'actor');
+        
+        function down() {
+//            h1.classList.toggle('titeldown');
+            p.classList.toggle('down');
+            img.classList.toggle('blurimage');
+            img.classList.toggle('imgshadow');
+            button.textContent = 'LESS INFO';
+            date.classList.toggle('datedown');
+            genres.classList.toggle('genredown');
+            subcard.classList.toggle('subcarddown');
+
+        }
+        
+//        function myFunction () {
+//            var x = document.querySelector('button');
+//            console.log(myFunction.innerHTML);
+//            if (x.innerHTML === 'More Info')
+//        {
+//        
+//        x.innerHTML = 'Less Info';
+//        
+//        } else {
+//            x.innerHTML = 'More Info';
+//        }
+//        }
+//        
+        
+        
+        button.addEventListener('click', down);
+    
     
 
-    
         container.appendChild(card);
-        card.appendChild(h1);
-        card.appendChild(p);
         card.appendChild(img);
-        card.appendChild(button);
+        container.appendChild(subcard);
+        card.appendChild(subcard);
+        subcard.appendChild(p);
+        subcard.appendChild(genres);
+        subcard.appendChild(date);
+        subcard.appendChild(actor);
+        card.appendChild(button); 
+
+        
     
+        
+
 
 
         console.log(movie.title);
-        console.log(movie.plot);
+        console.log(movie.simple_plot);
+        console.log(movie.genres);
+        console.log(movie.release_date);
+        console.log(movie.actors);
+    
 
 
     });
@@ -62,14 +125,28 @@ request.onload = function () {
 request.send();
 
 
-var button = document.querySelector('button');
-var description = document.querySelector('p');
 
-function down() {
-    description.classList.toggle('down');
-    
-}
+//     var harmonica = document.querySelector('button');
+//
+//for (var i = 0; i < harmonica.length; i++) {
+//    harmonica[i].onclick = function () {
+//        
+//        var content = this.nextElementSibling;
+//        if (content.style.maxHeight) {
+//            //harmonica is nu open, dicht maar!
+//            contentontent.style.maxHeight = null;
+//
+//        } else {
+//            //harmonica is dicht, openen!
+//            content.style.maxHeight = content.scrollHeight + "px";
+//        }
+//    }
+//}
 
-button.addEventListener('click', down);
+
+
+
+
+
 
 

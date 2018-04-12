@@ -1,88 +1,291 @@
 body {
-    font-family: Futura;
+    font-family: Nexa;
     margin: 0;
     background-color: black;
 }
-
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 
 #root {
     width: 100%;
     margin: 0;
 }
 
+#root1 {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0.5em;
+    height: 100%;
+    background-color: #171717;
+    box-shadow: 0px -3px 38px 3px rgba(227,227,227,0.82);;
+}
+
+.titelpagina {
+    margin: 0;
+    background-color: none;
+    color: yellow;
+    height: 100%;
+    text-align: center;
+
+    
+}
+
+
 .container {
     flex-wrap: nowrap;
-    flex-direction: colum;
+    flex-direction: column;
     display: flex;
     overflow-x: scroll;
     overflow-y: scroll;
+    margin: 0;
+    padding-top: 1em;
+    
 
 
 }
+
+/*
+.container1 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0.5em;
+
+
+}
+*/
 
 .card {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 0;
-    height: 100%;
-    width: 22em;
-    margin-right: 0.5em;
+    align-self: center;
+    height: 30em;
+    width: 80%;
+    margin: 0.5em 2em;
+    border-radius: 20%;
 }
 
+/*
 h1 {
     list-style: none;
     position: absolute;
     text-align: center;
-    font-size: 2em;
-    text-align: left;
+    font-size: 2em; 
     color: white;
-    z-index: 2;
-    margin: 0 0 1em;
-    bottom: 0;
-    padding: 0.1em 0;
+    z-index: 6;
+    opacity: 1;
+    bottom: 1.5em;
+    padding: 0;
     width: 100%;
+    border-radius: 0 0 0.3em 0.3em;
     background-color: rgb(173,173,173,85%);
+    
+}
+*/
+
+.titeldown {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0;
+    color: white;
+    z-index: 6;
+    margin-top: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    border-radius: 0 0 0.3em 0.3em;
+    background-color: rgb(173,173,173,85%);
+    transition:  0.3s ease-in-out;
     
 }
 
 h2 {
-    margin: 0;
-    padding: 0.2em;
-    color: white;
+    margin: 1em 1.5em 0.5em 1.5em;
+    color: yellow;
+    background-color: none;
+    text-align: left;
+
 }
 
 p {
-    padding: 0.5em;
-    align-self: center;
     overflow: hidden;
-    z-index: 0;
-    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    width: 90%;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
     color: white;
+    transition:  0.5s ease-in-out;
+
 }
 
+.description {
+    padding: 0.5em 0;
+}
+
+
 .down {
-    z-index: 8;
+    z-index: 6;
+    opacity: 1;
+    width: 90%;
+    text-align: center;
+    margin:  0 auto;
+/*    background-color: black;*/
+    overflow: hidden;
+    transition:  0.6s ease-in-out;
+    
 }
 
 img {
     z-index: 1;
     position: relative;
-    width: 20em;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition:  0.6s ease-in-out;
+    border-radius: 0.3em;
+    
+    
+}
+
+.imgshadow {
+    box-shadow: 0px 0px 38px 14px rgba(227,227,227,0.82);
+    transition:  0.5s ease-in-out;
+}
+
+
+.genre {
+    color: white;
+    margin: 0 auto;
+    opacity: 0;
+    z-index: 6;
+    top: 0;
+    text-align: center;
+    transition:  0.6s ease-in-out;
+}
+
+.genredown {
+    z-index: 6;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    transition:  0.6s ease-in-out;
+    opacity: 1;
+}
+
+
+
+
+.blurimage {
+    -webkit-filter: blur(2px);
+    transition:  0.6s ease-in-out;
 }
 
 button {
-    height: 3em;
-    width: 4em;
-    margin: 0 0.5em 3em auto;
-    z-index: 3;
-    background-color: white;
+    height: 4em;
+    width: 8em;
+    z-index: 7;
+    align-self: center;
+    background-color: yellow;
+    color: black;
+    bottom: 0;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-family: Nexa;
+    border: none;
+    font-weight: 700;
 }
+
+
+.subcard {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 85%;
+    width: 100%;
+    opacity: 0;
+    margin: 0;
+    position: absolute;
+    transition:  0.6s ease-in-out;
+    
+    
+}
+
+.subcarddown {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 6;
+    height: 85%;
+    width: 100%;
+    opacity: 0.6;
+    margin: 0;
+    position: absolute;
+    transition:  0.6s ease-in-out;
+}
+
+.date {
+    color: white;
+    top: 0;
+    margin: 0 auto;
+    z-index: 6;
+    opacity: 1;
+    padding: 0.5em;
+    overflow: hidden;
+    text-align: center;
+    transition:  0.6s ease-in-out;
+}
+
+
+.datedown {
+    color: white;
+    text-align: center;
+    transition:  0.6s ease-in-out; 
+    opacity: 1;
+    padding: 0.5em;
+    margin: 0 auto;
+    z-index: 6;
+    top: 0;
+    
+}
+
+
+
+
+
+.harmonica-content {
+    text-align: left;
+    width: 100%;
+    max-height: 10em;
+    background-color: blue;
+    overflow: hidden;
+    transition:  0.5s ease-in-out;
+    z-index: 10;
+
+}
+
+
+
+
+.actor {
+    color: white;
+    margin: 0 auto;
+    z-index: 10;
+    opacity: 1;
+}
+
+
+
 
 

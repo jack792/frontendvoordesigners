@@ -1,4 +1,4 @@
-var harmonica = document.getElementsByClassName("harmonica");
+var harmonica = document.getElementsByClassName("button");
 
 for (var i = 0; i < harmonica.length; i++) {
     harmonica[i].onclick = function () {
