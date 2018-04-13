@@ -1,7 +1,7 @@
 # frontend voor designers - opdracht 1
 Opdracht 1 is een ointeractieve prototype gemaakt om de gebruikers foto's laten sorteren op basis van kleur. op de bovenkant van de pagina staat een carousel navigatie menu met alle de mogelijk kleuren om een foto te kunnen vinden.
 
-De gebruiker kan verschillende filters knopjes gebruiken om de resultaten uitbreiden. 
+Ik heb een leuke animatie toegevoegd aan de knoppen om aan de gebruikers laten zien wanneer en welke filters gekozen heeft. 
 
 Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
 
