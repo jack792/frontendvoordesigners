@@ -30,12 +30,14 @@ header {
 
 .container {
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     overflow-x: scroll;
     overflow-y: scroll;
     margin: 0;
+    width: 100%;
     padding-top: 0.5em;
+    min-width: 100em;
     
 
 
@@ -47,8 +49,8 @@ header {
     position: relative;
     align-self: center;
     height: 30em;
-    width: 80%;
-    margin: 0.5em 2em;
+    width: 50em;
+    margin: 0.5em;
     border-radius: 20%;
 }
 
@@ -207,21 +209,6 @@ button {
     z-index: 6;
     top: 0;
     
-}
-
-
-
-
-
-.harmonica-content {
-    text-align: left;
-    width: 100%;
-    max-height: 10em;
-    background-color: blue;
-    overflow: hidden;
-    transition:  0.5s ease-in-out;
-    z-index: 10;
-
 }
 
 
