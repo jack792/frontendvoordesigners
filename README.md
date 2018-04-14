@@ -5,4 +5,4 @@ In het vak Frontend voor Designers leer je hoe je met HTML en CSS, en een beetje
 
 [Opdracht 1: Sorteren foto's op basis van kleur](https://jack792.github.io/frontendvoordesigners/opdracht1/v4/)
 
-Opdracht 3: Externe data laden voor een film website 
+[Opdracht 3: Externe data laden voor een film website](https://jack792.github.io/frontendvoordesigners/opdracht3/v2/) 
