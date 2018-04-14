@@ -1,5 +1,7 @@
 # frontend voor designers - opdracht 1
-Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door verschillende versies te testen hebt verbeterd. Bij iedere test voeg je een link toe naar de betreffende demo.
+Opdracht 1 is een ointeractieve prototype gemaakt om de gebruikers foto's laten sorteren op basis van kleur. op de bovenkant van de pagina staat een carousel navigatie menu met alle de mogelijk kleuren om een foto te kunnen vinden.
+
+De knoppen uitvoeren een duidelijk animatie  om aan de gebruikers laten zien wanneer en welke filters gekozen zijn. 
 
 Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
 
