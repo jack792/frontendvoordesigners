@@ -1,0 +1,242 @@
+body {
+    background-color: #F8F8F8;
+    margin: 0;
+    transition:  0.3s ease-in-out;
+}
+
+.bodyOn {
+    background-color: #2E2E2E;
+    transition:  0.3s ease-in-out;
+}
+
+img#pika {
+    width: 10em;
+    margin: auto;
+    display:flex; 
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Pokemon GB;
+    color: #2E2E2E;
+    font-size: 1.5em;
+    transition:  0.3s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    font-family: Pokemon GB;
+    color: #2E2E2E;
+    margin-top: 2em;
+    font-size: 1.5em;
+    transition:  0.3s ease-in-out;
+}
+
+.titelOn{
+    color: white;
+    transition:  0.3s ease-in-out;
+}
+.containerSwitch {
+    height: 1.9em;
+    display: flex;
+    width: 4.2em;
+    background-color: #2E2E2E;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-bottom: 0;
+    z-index: 1;
+    padding: 0;
+    transition:  0.3s ease-in-out;
+}
+
+.containerSwitchOn{
+    background-color: white;
+    transition:  0.3s ease-in-out;
+}
+
+.switch {
+    height: 2em;
+    padding: 0;
+    margin-bottom: 0;
+    width: 2em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 2em;
+    z-index: 2;
+    background-color: #33974A;
+    transition:  0.3s ease-in-out;
+    box-shadow: 2px 0px 5px 3px rgba(245,245,245,1);
+    
+}
+
+.switch:hover {
+    width: 2.5em;
+    height: 2.5em;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.switchOn {
+    margin-right: 0.18em;
+    transition:  0.3s ease-in-out;
+    box-shadow: -2px 0px 5px 3px rgba(46,46,46,1);
+}
+
+main {
+    height: 40em;
+    border-radius: 1em;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #33974A;
+    /border: 1px solid black;
+    transition:  0.3s ease-in-out;
+    
+}
+
+.mainOn {
+    background-color: #FAFAFA;
+    transition:  0.3s ease-in-out;
+}
+
+div {
+    background-color: #606C78;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0.5em;
+    height: 17em;
+    z-index: 1;
+    border-radius: 0.8em 0.8em 4em 0.8em;
+    margin-bottom: 1em;
+    
+}
+
+div > div {
+    height: 0.7em;
+    width: 0.7em;
+    border-radius: 100%;
+    padding: 0;
+    margin-left: -1.8em;
+    margin-right: 0.8em;
+    align-self: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    z-index: 3;
+    background-color: #DA0002;
+}
+
+section {
+    height: 90%;
+    justify-content: center;
+    align-self: center;
+    width: 75%;
+    z-index: 2;
+    border-radius: 0.1em;
+/*    background-image: url('../images/pikachu-happy.png');*/
+    background-repeat: no-repeat;
+    background-size: 11em;
+    background-position: center;
+    background-color: #90A62F;
+}
+
+section > div {
+    height: 1.5em;
+    width: 8em;
+    margin-right: 0.5em;
+    margin-left: auto;
+    margin-top: 0.5em;
+    border-radius: 1em;
+    padding: 0;
+    background-color: white;
+    font-family: Pokemon GB;
+    font-size: 0.9em;
+    opacity: 0;
+    
+    
+}
+
+@keyframes counterLevel {
+    
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1; 
+    }
+} 
+
+.counterLevel {
+    animation: counterLevel 2s;
+    opacity: 1;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+/*
+.tired {
+    background-image: url(../images/pikachu-tired.png);
+}
+*/
+
+
+/*
+div {
+    height: 10em;
+    background-color: aqua;
+    
+}
+*/
+
+div + img {
+    width: 6.5em;
+    margin: 0 0 1em 0;
+}
+
+nav {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+    
+}
+
+li {
+    height: 5em;
+    width: 5em;
+    background-color: none;
+    
+}
+
+
+li:nth-of-type(1) {
+    background-image: url(../images/train.png);
+    background-size: contain;
+}
+
+
+li:nth-of-type(2) {
+    background-image: url(../images/potion.png);
+    background-size: cover;
+}
+
+
+li:nth-of-type(3) {
+    background-image: url(../images/food.png);
+    background-size: cover;
+}
