@@ -85,16 +85,10 @@ var training = function () {
 
 
     } else {
-        (count => 0);
         pika.src = imgPikachu[1];
         console.log(imgPikachu[1]);
     }
-
-}
-
-
-//Evolve your pokemon
-var trasform = function () {
+    
     if (count2 == 5) {
         count = 0;
         count2 = 0;
@@ -102,6 +96,7 @@ var trasform = function () {
         text.textContent = 'Pikachu evolved in Raichu';
 
     }
+
 }
 
 
@@ -139,7 +134,6 @@ function open() {
 //Alle de eventlistener om function te triggeren
 
 button.addEventListener('click', training);
-button.addEventListener('click', trasform);
 buttonB.addEventListener('click', herstel);
 on.addEventListener('click', open);
 window.addEventListener('keydown', keyboardCommands, false);
