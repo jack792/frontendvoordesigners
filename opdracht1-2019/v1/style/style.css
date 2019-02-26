@@ -1,0 +1,83 @@
+body {
+   margin: 0;
+   background-color: #202020;
+}
+
+section {
+    display: flex;
+    background-color: #202020;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.album article {
+    height: 15em;
+    width: 15em;
+    margin: 2em auto;
+    background-image: url(../images/spiderman.jpg);
+    background-size: cover;
+}
+
+h3 {
+    font-family: Avenir;
+    color: #FFFFFF;
+    margin: 0 0 0.5em 0.5em;
+}
+
+section .dropzone {
+    height: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+
+}
+
+section div .dropzone  {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #202020;
+}
+
+
+#draggable {
+    justify-self: center;
+    font-family: avenir;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    display: flex;
+    margin: 0 1em;
+    justify-content: space-between;
+    width: 100%;
+    align-self: center;
+
+
+}
+
+#draggable img {
+    height: 0.3em;
+    align-self: center;
+}
+
+.container { 
+    display: flex;
+    width: 3em;
+    flex-direction: row;
+    justify-self: center;
+    margin: auto 0;
+    justify-content: flex-end;
+}
+
+
+.container div {
+    height: 0.4em;
+    justify-content: flex-end;
+    width: 0.4em;
+    margin: 0 0.2em;
+    background-color: #cccccc;
+    border-radius: 100%;
+}
+
