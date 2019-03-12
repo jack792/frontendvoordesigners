@@ -78,7 +78,6 @@ const nextBtn = document.querySelector('button:nth-of-type(2)');
     nextBtn.classList.toggle('buttonAnimation');
 };
 
-
 function prev(){
     if (counter <=0) return; 
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
@@ -104,6 +103,7 @@ function loop() {
 
 function prevKey(key) {
     if (key.keyCode == "37") {
+        
         carouselSlide.style.transition = "transform 0.4s ease-in-out";
         counter--;
         carouselSlide.style.transform = 'translateX(' + (-size * counter ) + 'px)';
