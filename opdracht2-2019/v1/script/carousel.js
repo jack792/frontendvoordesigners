@@ -131,4 +131,3 @@ prevBtn.addEventListener('click', prev);
 window.addEventListener('transitionend', loop);
 window.addEventListener('keydown', prevKey, false);
 window.addEventListener('keydown', nextKey, false);
-
