@@ -88,6 +88,7 @@ function prev(){
     prevBtn.classList.toggle('buttonAnimation');
 };
 
+
 function loop() {
     if (carouselImages[counter].id === 'lastClone') {
     carouselSlide.style.transition = "none";
