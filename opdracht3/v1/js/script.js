@@ -15,7 +15,7 @@ var genre = document.querySelector('h3');
 var date = document.querySelector('p');
 
 
-request.open('GET', 'http://dennistel.nl/movies', true);
+request.open('GET', 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json', true);
 request.onload = function () {
 
     // Begin accessing JSON data here

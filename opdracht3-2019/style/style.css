@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+#root1 {
+    width: 100%;
+    margin: 0;
+}
 
 header {
     margin: 0;
@@ -38,8 +42,52 @@ header {
     margin: 0;
     padding-top: 1em;
     
+
+
 }
 
+/*
+.container1 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0.5em;
+
+
+}
+*/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    height: 30em;
+    width: 80%;
+    margin: 0.5em 2em;
+    border-radius: 20%;
+}
+
+/*
+h1 {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    font-size: 2em; 
+    color: white;
+    z-index: 6;
+    opacity: 1;
+    bottom: 1.5em;
+    padding: 0;
+    width: 100%;
+    border-radius: 0 0 0.3em 0.3em;
+    background-color: rgb(173,173,173,85%);
+    
+}
+*/
 
 .titeldown {
     list-style: none;
@@ -66,16 +114,21 @@ h2 {
 
 }
 
-.description {
-    z-index: 3;
-    opacity: 1;
+p {
+    overflow: hidden;
+    z-index: 1;
+    opacity: 0;
     width: 90%;
-    top: 2em;
-    position: absolute;
+    top: 0;
     margin: 0 auto;
     text-align: center;
     color: white;
+    transition:  0.5s ease-in-out;
 
+}
+
+.description {
+    padding: 0.5em 0;
 }
 
 
@@ -85,31 +138,28 @@ h2 {
     width: 90%;
     text-align: center;
     margin:  0 auto;
-    background-color: black;
-    position: relative;
+/*    background-color: black;*/
+    overflow: hidden;
+    transition:  0.6s ease-in-out;
     
 }
 
-.card {
-    height: 30em;
-    width: 20em;
-    margin: 0 auto;
-    position: relative;
+img {
     z-index: 1;
-}
-
-.card:hover {
-
-}
-
-
-.cover {
-    z-index: 2;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    transition:  0.6s ease-in-out;
+    border-radius: 0.3em;
+    
+    
 }
 
+.imgshadow {
+    box-shadow: 0px 0px 38px 14px rgba(227,227,227,0.82);
+    transition:  0.5s ease-in-out;
+}
 
 
 .genre {
@@ -122,6 +172,14 @@ h2 {
     transition:  0.6s ease-in-out;
 }
 
+.genredown {
+    z-index: 6;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    transition:  0.6s ease-in-out;
+    opacity: 1;
+}
 
 
 
@@ -149,6 +207,33 @@ button {
 }
 
 
+.subcard {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 85%;
+    width: 100%;
+    opacity: 0;
+    margin: 0;
+    position: absolute;
+    transition:  0.6s ease-in-out;
+    
+    
+}
+
+.subcarddown {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 6;
+    height: 85%;
+    width: 100%;
+    opacity: 0.6;
+    margin: 0;
+    position: absolute;
+    transition:  0.6s ease-in-out;
+}
 
 .date {
     color: white;
@@ -178,10 +263,29 @@ button {
 
 
 
+
+.harmonica-content {
+    text-align: left;
+    width: 100%;
+    max-height: 10em;
+    background-color: blue;
+    overflow: hidden;
+    transition:  0.5s ease-in-out;
+    z-index: 10;
+
+}
+
+
+
+
 .actor {
     color: white;
     margin: 0 auto;
     z-index: 10;
     opacity: 1;
 }
+
+
+
+
 
