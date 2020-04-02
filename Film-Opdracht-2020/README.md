@@ -26,6 +26,8 @@ De tweede versie van het prototype is gericht om een betere interface te ontwikk
 
 ![Versie 1 opdracht](/images/Versie3.png)
 
+![Versie 1 opdracht](/images/Infobox.png)
+
 # Principles of User Interface Design no. 4 en 11.
 No. 4 - Keep users in control
 
