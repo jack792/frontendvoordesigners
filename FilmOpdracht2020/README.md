@@ -22,9 +22,14 @@ De tweede versie van het prototype is gericht om een betere interface te ontwikk
 Verbetering van interface en vormgeving.
 
 In de derde versie van het opdracht heb ik de UI van het tweede versie verbeterd en gericht naar het ontwikkelen van vormgeving en interacties. Hierbij heb ik gekozen om me te focussen naar het vormgeving en het uitbreiding van interacties met CTA. Hierbij heb ik gekozen animaties te gaan onderwerpen over de 3 meest belangrijkst CTA kopen, huren en in het favorietenlijst zetten te gaan ondwerpen.
+
 ![Versie 3 opdracht](/images/Laatsteversie.png)
 
 ![Versie 3 opdracht](/images/Infobox.png)
+
+![Versie 3 opdracht](/images/Cinemakaartje.png)
+
+Hierbij heb ik een animatie ontworpen voor wanneer een gebruiker een film op het platform koop. Wanneer de gebruiker op het "Buy" CTA klikt wordt een grappige bioscoop kaartje bericht geladen zodat het gebruiker een duidelijk feedback zou krijgen. Hierbij wil ik dat de gebruiker altijd weet wanneer een aankoop gelukt is.
 
 # Principles of User Interface Design no. 4 en 11.
 No. 4 - Keep users in control
