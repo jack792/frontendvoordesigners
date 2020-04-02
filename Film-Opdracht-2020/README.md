@@ -24,7 +24,7 @@ Verbetering van interface en vormgeving.
 
 De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoging van een nieuwe navigatie tussen de films. Hier gebruikers moeten vertical scrollen in plaats van horizontal. Hierbij heb ik de carousel menu verwijderd om het pagina beter te vullen met belangrijk content.
 
-![Versie 1 opdracht](/images/Versie1.png)
+![Versie 1 opdracht](/images/Versie3.png)
 
 # Principles of User Interface Design no. 4 en 11.
 No. 4 - Keep users in control
