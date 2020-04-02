@@ -7,26 +7,24 @@ Er moet externe data vanuit een externe database geladen worden en daarop een in
 # [Versie 1: Film website met externe data](https://jack792.github.io/frontendvoordesigners/FilmOpdracht2020/v1/)
 Laden van content uit een externet database een eerste interface bouwen.
 
-De eerste versie is gefocus om het basis functionaliteit van het hele prototype te testen, het laden van externe data. Hierdoor heb ik mijn prototype ontworpen om de eerste data te verzamelen en een eerste rauwe interface ontwikkelen.
-Deze eerste versie bevat de basis van het javascript structuur van het hele prototype zonder bijzondere interactie en animaties.
+De eerste versie van mijn opdracht is gefocus om het basis functionaliteit van het hele prototype te testen, het laden van externe data. Hierdoor heb ik mijn prototype ontworpen om de eerste data te verzamelen en een eerste rauwe interface ontwikkelen. Hierbij is heel benlangrijk geweest om de eerste data goed te moeten structureren. Deze eerste versie bevat de basis van het javascript structuur van het hele prototype zonder bijzondere interactie en animaties.
 
 ![Versie 1 opdracht](/images/Versie1.png)
 
 # [Versie 2: Verbetering van interface](https://jack792.github.io/frontendvoordesigners/FilmOpdracht2020/v2/) 
 Verbetering van interface en vormgeving.
 
-De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoging van een nieuwe navigatie tussen de films. Hier gebruikers moeten vertical scrollen in plaats van horizontal. Hierbij heb ik de carousel menu verwijderd om het pagina beter te vullen met belangrijk content.
+De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoeging van een nieuwe navigatie tussen de films. Hierbij heb ik de movie filter verandert met het gebruikt van een duidekijker genres sectie met afbeeldingen die makkelijk alle de categorieen presenteren. In deze versie heb ik ook de eerste interactie ontworpen waarbij het gebruiker movie informaties kan ontdekken. Met een klik op het gekozen film wordt een informaties box getoond. In deze sectie zijn er ook belanrijk CTA te vinden om verschillende interactie te kunnen ervaren net als een film kopen, verhuren en in het favorieten  te zetten.
 
-![Versie 1 opdracht](/images/Versie2.png)
+![Versie 2 opdracht](/images/Versie2.png)
 
 # [Versie 3: Verbetering van ontwerp op basis van UI principles](https://jack792.github.io/frontendvoordesigners/FilmOpdracht2020/v3/) 
 Verbetering van interface en vormgeving.
 
-De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoging van een nieuwe navigatie tussen de films. Hier gebruikers moeten vertical scrollen in plaats van horizontal. Hierbij heb ik de carousel menu verwijderd om het pagina beter te vullen met belangrijk content.
+In de derde versie van het opdracht heb ik de UI van het tweede versie verbeterd en gericht naar het ontwikkelen van vormgeving en interacties. Hierbij heb ik gekozen om me te focussen naar het vormgeving en het uitbreiding van interacties met CTA. Hierbij heb ik gekozen animaties te gaan onderwerpen over de 3 meest belangrijkst CTA kopen, huren en in het favorietenlijst zetten te gaan ondwerpen.
+![Versie 3 opdracht](/images/Laatsteversie.png)
 
-![Versie 1 opdracht](/images/Laatsteversie.png)
-
-![Versie 1 opdracht](/images/Infobox.png)
+![Versie 3 opdracht](/images/Infobox.png)
 
 # Principles of User Interface Design no. 4 en 11.
 No. 4 - Keep users in control
