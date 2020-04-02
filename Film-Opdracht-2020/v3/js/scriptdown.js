@@ -61,14 +61,26 @@ function setData(id) {
             const markup =
             `<div class="infoCard" style="background-image: url(${movie.cover})">
                 <h1 class="title">${movie.title}</h1>
-                <p class="genre">${movie.genres}</p>
-                <p class="directors">${movie.directors[0].name}</p>
-                <p class="actors">${movie.actors[0].actor_name}, ${movie.actors[1].actor_name}</p>
-                <p class="description">${movie.plot}</p>
-                <div class="buttonSectie">
-                <button class="button">Buy € 9,99</button>
-                <button class="button">Rent € 4,99</button>
-                </div>
+                <p class="directors">Director ${movie.directors[0].name}</p>
+                <p class="actors">Starring ${movie.actors[0].actor_name}, ${movie.actors[1].actor_name}, ${movie.actors[3].actor_name}</p>
+                    <section class="infoDown">
+                        <div class="buttonSectie">
+                            <button class="button">
+                                <h5>Buy € 9,99</h5>
+                            </button>
+                            <button class="button">
+                                <h5>Rent € 4,99</h5>
+                            </button>
+                            <button class="button">
+                                <h5>Add to favourite</h5>
+                                <img src="./images/Heart-Black.png" alt="">
+                            </button>
+                        </div>
+                        <div class="textSectie">
+                            <p class="description">${movie.plot}</p>
+                            <p class="genre">${movie.genres}</p>
+                        </div>
+                    </section>
             </div>
             <div class="backgroundImg"></div>
             `
