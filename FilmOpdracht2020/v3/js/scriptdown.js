@@ -86,6 +86,17 @@ function setData(id) {
             `
             console.log(movie);
             document.getElementById("carouselInfo").innerHTML = markup;
+            
+            const buttonKopen = document.querySelector('.button:nth-of-type(1)');
+            
+            const message = document.querySelector('.kopen');
+
+            function kopen () {
+            message.classList.toggle('visible');
+            console.log('Hello there!');
+}
+
+            buttonKopen.addEventListener('click', kopen);
         }
     });
 };
