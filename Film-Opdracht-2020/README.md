@@ -10,7 +10,7 @@ Laden van content uit een externet database een eerste interface bouwen.
 De eerste versie is gefocus om het basis functionaliteit van het hele prototype te testen, het laden van externe data. Hierdoor heb ik mijn prototype ontworpen om de eerste data te verzamelen en een eerste rauwe interface ontwikkelen.
 Deze eerste versie bevat de basis van het javascript structuur van het hele prototype zonder bijzondere interactie en animaties.
 
-![Versie 1 opdracht](/images/Versie1.png)
+![Versie 1 opdracht](/images/Versie2.png)
 
 # [Versie 2: Verbetering van interface](https://jack792.github.io/frontendvoordesigners/opdracht3/v2/) 
 Verbetering van interface en vormgeving.
