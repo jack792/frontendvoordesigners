@@ -24,7 +24,7 @@ Verbetering van interface en vormgeving.
 
 De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoging van een nieuwe navigatie tussen de films. Hier gebruikers moeten vertical scrollen in plaats van horizontal. Hierbij heb ik de carousel menu verwijderd om het pagina beter te vullen met belangrijk content.
 
-![Versie 1 opdracht](/images/Versie3.png)
+![Versie 1 opdracht](/images/Laatsteversie.png)
 
 ![Versie 1 opdracht](/images/Infobox.png)
 
