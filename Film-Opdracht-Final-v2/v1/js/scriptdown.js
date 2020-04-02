@@ -59,7 +59,7 @@ function setData(id) {
         i = index + 1;
         if (i === parseFloat(id)) {
             const markup =
-            `<div class="infoCard" style="background-image: url(${movie.cover})">
+            `<div class="infoCard">
                 <h1 class="title">${movie.title}</h1>
                 <p class="genre">${movie.genres}</p>
                 <p class="directors">${movie.directors[0].name}</p>

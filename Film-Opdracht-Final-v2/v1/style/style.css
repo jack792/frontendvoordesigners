@@ -5,10 +5,7 @@ body {
     margin: 0;
     background: #010017;
     background: #010017;
-    background: -moz-linear-gradient(top, #010017 0%, #00253B 72%, #003959 100%);
-    background: -webkit-linear-gradient(top, #010017 0%, #00253B 72%, #003959 100%);
-    background: linear-gradient(to bottom, #010017 0%, #00253B 72%, #003959 100%);
-    /* background-color: rgb(19, 26, 37); */
+    background-color: rgb(107, 107, 107);
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -41,7 +38,7 @@ header {
     justify-content: flex-start;
     align-self: center;
     align-content: center;
-    background-color: #010017;
+    background-color: rgb(107, 107, 107);
 }
 
 nav {
@@ -98,14 +95,13 @@ main {
     width: 100%;
     padding: 0 2em 2em 2em;
     border-radius: 0.5em;
+    background-color: rgb(58, 58, 58);
     margin: 4em auto 2em auto;
     background-size: cover;
-    /background-position: center;
     border: 4px solid rgba(10, 15, 22, 0);
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0); 
 box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
     transition: 0.3s;
-    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2016/01/EP7_IA_180308.jpg);
 }
 
 .background:hover {
@@ -113,19 +109,18 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
 }
 
 .background h1 { 
-    margin: 0 0 0.5em 0;
+    margin: 2em 0 0.5em 2em;
     font-size: 3em;
     color: white;
 }
 
 
 .background h2 {
-    margin: 0;
+    margin: 0 0 0 3em;
     font-size: 2em;
     font-family: Lato;
     color: white;
     height: 100%;
-    margin: 0;
 }
 
 
@@ -144,7 +139,7 @@ section article {
     width: 18em;
     border: 4px solid rgba(158, 158, 158, 0.397);
     border-radius: 0.5em;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(58, 58, 58);
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0); 
 box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
 }
@@ -173,31 +168,11 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
 
 
 .adventure {
-    background-image: url(https://edinburghtoollibrary.org.uk/wp-content/uploads/2014/05/3back-to-the-future-original.jpg);
     transition: 0.5s;
-}
-
-.horror {
-    background-image: url(../images/The-Shining-1980.jpg);
-    
-}
-
-.comedy {
-    background-image: url(https://cdn.onebauer.media/one/empire-tmdb/films/72105/images/sPiFgbWMSQxVMO6TuRFrkeWwarI.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg);
-}
-
-.fantasy {
-    background-image: url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/lord-of-the-rings-tv-show.jpg);
 }
 
 
 /*GENRES*/
-
-.animation {
-    background-image: url(../images/animation.webp);
-    background-position: right;
-
-}
 
 .animation:hover {
     border: 4px solid white;
@@ -255,6 +230,7 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0); 
 box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
     transition: 0.4s;
+    background-color: rgb(58, 58, 58);
 }
 
 
@@ -262,32 +238,6 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
     border: 4px solid white;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0); 
 box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
-}
-
-
-.card:nth-of-type(1) .cover {
-    background-image: url(../images/Evil_dead.jpeg);
-}
-
-
-.card:nth-of-type(2) .cover {
-    background-image: url(../images/the-shawshank-redemption.jpg);
-}
-
-.card:nth-of-type(3) .cover {
-    background-image: url(../images/The_Godfather.jpg);
-}
-
-.card:nth-of-type(4) .cover {
-    background-image: url(../images/Pulp_Fiction.jpg);
-}
-
-.card:nth-of-type(5) .cover {
-    background-image: url(../images/The_Dark_Knight.jpg);
-}
-
-.card:nth-of-type(6) .cover {
-    background-image: url(../images/Fight_Club_Banner.jpg);
 }
 
 
@@ -344,19 +294,16 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
 
 .buttonSectie {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 40em;
     margin-top: 2em;
 }
 
-.button:nth-of-type(1) {
-    margin: 0;
-}
 
 .button {
     height: 3.5em;
     width: 16em;
-    margin: 0 2em;
+    margin: 0 2em 2em 0;
     background-color: #F5A623;
     color: black;
     font-size: 1em;
@@ -439,30 +386,6 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 10px 21px 5px rgba(0,0,0,0);
     flex-direction: column;
 }
 
-.infoCard:nth-of-type(1) {
-    background-image: url(../images/Evil.png);
-}
-
-
-.infoCard:nth-of-type(2) {
-    background-image: url(../images/Theshaw.png);
-}
-
-.infoCard:nth-of-type(3) {
-    background-image: url(../images/Thegodfather.png);
-}
-
-.infoCard:nth-of-type(4) {
-    background-image: url(../images/Pulpfiction.png);
-}
-
-.infoCard:nth-of-type(5) {
-    background-image: url(../images/Batman.png);
-}
-
-.infoCard:nth-of-type(6) {
-    background-image: url(../images/Fightclub.png);
-}
 
 .backgroundImg {
     backdrop-filter: blur(5px);
