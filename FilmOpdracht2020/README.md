@@ -12,14 +12,14 @@ Deze eerste versie bevat de basis van het javascript structuur van het hele prot
 
 ![Versie 1 opdracht](/images/Versie1.png)
 
-# [Versie 2: Verbetering van interface](https://jack792.github.io/frontendvoordesigners/opdracht3/v2/) 
+# [Versie 2: Verbetering van interface](https://jack792.github.io/frontendvoordesigners/FilmOpdracht2020/v2/) 
 Verbetering van interface en vormgeving.
 
 De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoging van een nieuwe navigatie tussen de films. Hier gebruikers moeten vertical scrollen in plaats van horizontal. Hierbij heb ik de carousel menu verwijderd om het pagina beter te vullen met belangrijk content.
 
 ![Versie 1 opdracht](/images/Versie2.png)
 
-# [Versie 3: Verbetering van ontwerp op basis van UI principles](https://jack792.github.io/frontendvoordesigners/opdracht3/v2/) 
+# [Versie 3: Verbetering van ontwerp op basis van UI principles](https://jack792.github.io/frontendvoordesigners/FilmOpdracht2020/v3/) 
 Verbetering van interface en vormgeving.
 
 De tweede versie van het prototype is gericht om een betere interface te ontwikkelen met animaties en interactie. In deze versie wordt het interface aangepast en verbeterd met het toevoging van een nieuwe navigatie tussen de films. Hier gebruikers moeten vertical scrollen in plaats van horizontal. Hierbij heb ik de carousel menu verwijderd om het pagina beter te vullen met belangrijk content.
