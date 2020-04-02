@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon / Line / Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,20 C16.418278,20 20,16.418278 20,12 C20,7.581722 16.418278,4 12,4 C7.581722,4 4,7.581722 4,12 C4,16.418278 7.581722,20 12,20 Z M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M12,7 C11.4477153,7 11,7.31979661 11,7.71428571 L11,7.71428571 L11,11 L7.71428571,11 C7.31979661,11 7,11.4477153 7,12 C7,12.5522847 7.31979661,13 7.71428571,13 L7.71428571,13 L11,13 L11,16.2857143 C11,16.6802034 11.4477153,17 12,17 C12.5522847,17 13,16.6802034 13,16.2857143 L13,16.2857143 L13,13 L16.2857143,13 C16.6802034,13 17,12.5522847 17,12 C17,11.4477153 16.6802034,11 16.2857143,11 L16.2857143,11 L13,11 L13,7.71428571 C13,7.31979661 12.5522847,7 12,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-/-Line-/-Add" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill-opacity="0" fill="#051033" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Color-/-Background-grey" mask="url(#mask-2)" fill="#FBFBFB">
+            <polygon id="White" points="0 0 24 0 24 24 0 24"></polygon>
+        </g>
+    </g>
+</svg>

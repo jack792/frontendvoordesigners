@@ -28,7 +28,7 @@ request.onload = function () {
 
 
 function showMovies(jsonObj) {
-    // console.log(jsonObj);
+    console.log(jsonObj);
 
     for (var obj of jsonObj) { //ipv van for loop
         
@@ -41,6 +41,7 @@ function showMovies(jsonObj) {
         var img = document.createElement('img');
         img.setAttribute('class', 'cover');
         img.src = obj.cover;
+        console.log(obj.cover);
 
         var button = document.createElement('button');
         button.setAttribute('class', 'button');
