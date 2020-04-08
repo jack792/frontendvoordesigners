@@ -34,12 +34,17 @@ Hierbij heb ik een animatie ontworpen voor wanneer een gebruiker een film op het
 # Principles of User Interface Design no. 4 en 11.
 No. 4 - Keep users in control
 
-In de twee versies van het prototype heb ik gekozen om alleen een klikbaar element in het pagina te ontwerpen om het gebruiker niet af te leiden in het ontdekken van films. Deze elementen (buttons) hebben een opvallend kleur in het interface van het pagina die duidelijk te zien is voor het gebruiker.
+In de derde versies van het prototype heb ik gekozen om alleen een klikbaar element in het pagina te ontwerpen om het gebruiker niet af te leiden in het ontdekken van films. Deze elementen (buttons) hebben een opvallend kleur in het interface van het pagina die duidelijk te zien is voor het gebruiker. Deze CTA hebben hetzelfde kleur en vorm en zorgen om de gebruikers te helpen binnen het pagina.
 
 No. 11 - Strong visual hierarchies work best
 
-In de twee versies van het prototype heb ik gekozen om een duidelijk hierarchie van het pagina te ontwerpen. In het tweede versie de afbeeldingen van de films hebben een centraal rol in het interface van het pagina.
-Deze afbeeldingen zijn de houder van alle berlangrijkst informaties over de verschillende films en worden altijd gecentreerd in het pagina om de content centraal te stellen....
+In de twee versies van het prototype heb ik gekozen om een duidelijk hierarchie van het pagina te ontwerpen. In deze versie de afbeeldingen van de films hebben een centraal rol in het interface van het pagina.
+Door de afbeeldingen van de films centraal op de pagina te plaatsen zijn de gebruikers op de hoogte over welke film het gaat los van de titel. In de informatie box zijn alle film informaties met een duidelijk hierachie getond zodat de gebruiker snel de pagina zal kunnen scannen. Dit zorg om de infarmaties duidelijk naar de gebruiker te brengen en om sneller actie te laten ondernemen.
+
+No. 10 - Consistency matters
+
+Consistencie is heel belangrijk binnen ui design. Door middel van een goede consistencie binnen het interface kunnen we de gebruiker helpen tijdens het navigatie binnen het platform. In mijn ontwerp heb ik gekozen om de klikbare elementen altijd met een ronde vorm te tonen. De klikbare elementen op het pagina hebben ook altijd een hover animatie die laat het zien dat het element klikbaar is en die zorg om het gebruiker te helpen met de interactie binnen het ontwerp.
+Op het film pagina heb ik gekozen om alle de CTA buttons met hetzelfde kleur en vorm te tonen en op een bepaalde plek op de pagina te groepen. Om dit te doen zal de gebruker de CTA makkelijk zien en mekkelijk te kunnen klikken om een actie te kunnen nemen.
 
 
 
